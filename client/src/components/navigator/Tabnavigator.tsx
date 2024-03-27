@@ -7,10 +7,23 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 // Modules
 import HomeScreen from '../../screens/Core/HomeScreen';
-import HealthWellnessScreen from '../../screens/modules/HealthWellnessScreen';
-import ExpenseTracker from '../../screens/modules/ExpenseTracker';
-import SavingGoals from '../../screens/modules/SavingGoals';
+
+// Health & Wellness
+import HealthWellnessScreen from '../../screens/modules/healthWellness/HealthWellnessScreen';
+import WeightTracker from '../../screens/modules/healthWellness/WeightTracker';
+import Hydration from '../../screens/modules/healthWellness/Hydration';
+import NutritionScanner from '../../screens/modules/healthWellness/NutritionScanner';
+import MealPlanner from '../../screens/modules/healthWellness/MealPlanner';
+
+// Mind Body Fit
 import MindBodyFitScreen from '../../screens/modules/MindBodyFitScreen';
+
+// Expenses
+import ExpenseTracker from '../../screens/modules/ExpenseTracker';
+
+// Savings
+import SavingGoals from '../../screens/modules/SavingGoals';
+
 import COLORS from '../../constants/Colors';
 
 const Tab = createBottomTabNavigator();
