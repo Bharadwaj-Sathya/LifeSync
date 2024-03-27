@@ -33,7 +33,6 @@ const style = StyleSheet.create({
 
   categoryContainer: {
     marginTop: 30,
-    marginHorizontal: 20,
     flexDirection: 'row',
     justifyContent: 'flex-start',
   },

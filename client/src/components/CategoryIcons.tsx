@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Text,
-  View,
-  StatusBar,
-  SafeAreaView,
-  ScrollView,
-  TouchableOpacity,
-} from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
-import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
+import {Text, View, Image, TouchableOpacity} from 'react-native';
 import COLORS from '../constants/Colors';
 import style from '../assets/css/Style';
 import {useNavigation} from '@react-navigation/native';
@@ -20,8 +11,27 @@ const ListCategories = ({categoryIcons}: {categoryIcons: any}) => {
     <View style={style.categoryContainer}>
       {categoryIcons.map((item: any, index: number) => (
         <TouchableOpacity key={index} activeOpacity={0.8}>
-          <View style={style.iconContainer}>{item.icon}</View>
-          <Text style={style.iconCategoryText}>{item.name}</Text>
+          <View
+            key={index}
+            style={{
+              width: 90,
+              height: 90,
+              borderColor: '#E0E0E0',
+              borderWidth: 1,
+              borderRadius: 5,
+              marginLeft: 10,
+              alignItems: 'center',
+              justifyContent: 'center',
+              backgroundColor: COLORS.white,
+            }}>
+            <Image
+              style={{width: 50, height: 50}}
+              source={{uri: item?.image}}
+            />
+            <Text style={{fontSize: 12, fontWeight: '800', marginTop: 2}}>
+              {item?.name}
+            </Text>
+          </View>
         </TouchableOpacity>
       ))}
     </View>
