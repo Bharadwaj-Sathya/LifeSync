@@ -18,24 +18,25 @@ const style = StyleSheet.create({
     fontSize: 23,
   },
 
-  inputContainer: {
-    height: 60,
-    width: '100%',
-    backgroundColor: COLORS.white,
-    borderRadius: 10,
-    position: 'absolute',
-    top: 90,
+  container: {
+    flex: 1,
+    padding: 8,
     flexDirection: 'row',
-    paddingHorizontal: 20,
-    alignItems: 'center',
-    elevation: 12,
   },
 
-  categoryContainer: {
-    marginTop: 30,
-    flexDirection: 'row',
-    justifyContent: 'flex-start',
+  card: {
+    flex: 1,
+    width: 80,
+    height: 80,
+    margin: 8,
+    borderWidth: 1,
+    borderRadius: 5,
+    borderColor: '#E0E0E0',
+    backgroundColor: COLORS.white,
+    justifyContent: 'center',
+    alignItems: 'center'
   },
+
 
   iconContainer: {
     height: 80,
