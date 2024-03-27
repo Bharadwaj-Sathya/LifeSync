@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/css/Style.js",
+      "sha1": "34f3de7cecbb5615c46769565cd2dcabf7ac0775"
+    },
+    {
+      "path": "src/assets/data/index.ts",
+      "sha1": "78c78fb40b05d4450523284fb79a143d29ad3e4c"
+    },
+    {
+      "path": "src/assets/images/icons/scale.png",
+      "sha1": "72390d36a0d65eaa84fe8eddded7e0fb59489cd0"
+    },
+    {
+      "path": "src/assets/images/onboarding.jpeg",
+      "sha1": "28ed8885562e61dbbc0655decb21df3045e880a8"
+    },
+    {
+      "path": "src/assets/plant1.png",
+      "sha1": "7920aae16ec8af10a1160f9e8781e57ab45cdd25"
+    },
+    {
+      "path": "src/assets/plant2.png",
+      "sha1": "2efd631b39b4ac979814e09d731c908cc07e6cab"
+    },
+    {
+      "path": "src/assets/plant3.png",
+      "sha1": "46d9e681f45d3cd2288d289e1321ceb1f0866608"
+    },
+    {
+      "path": "src/assets/plant4.png",
+      "sha1": "724be6235ac11191485959ed3d5029fa1d956470"
+    },
+    {
+      "path": "src/assets/plant5.png",
+      "sha1": "55edde2c9ce914ba09867b284972acbee3ac2723"
+    },
+    {
+      "path": "src/assets/plant6.png",
+      "sha1": "fd408fe8f39474dbe504e4055f9390b377c9cfce"
+    }
+  ]
+}
